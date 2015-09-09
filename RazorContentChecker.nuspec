@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>RazorContentChecker</id>
+    <version>$version$</version>
+    <title>Razor Content Checker</title>
+    <authors>Daniel Steuernol</authors>
+    <owners>Daniel Steuernol</owners>
+    <projectUrl>https://github.com/dlsteuer/RazorContentChecker</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A build tool to verify the build action of your razor view files.</description>
+  </metadata>
+  <files>
+    <file src="bin\Release\*.dll" target="tools" />
+  </files>
+</package>
