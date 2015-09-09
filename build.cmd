@@ -10,4 +10,4 @@ if "%nuget%" == "" (
     set nuget=nuget
 )
 
-%nuget% pack "RazorContentChecker.nuspec" -NoPackageAnalysis -OutputDirectory $buildArtifactsDirectory
+%nuget% pack "RazorContentChecker\RazorContentChecker.csproj" -Build -NoPackageAnalysis -OutputDirectory $buildArtifactsDirectory
