@@ -1,0 +1,5 @@
+.fake/
+RazorContentChecker/bin/
+RazorContentChecker/obj/
+build/
+packages/
