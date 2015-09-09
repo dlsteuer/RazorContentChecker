@@ -11,6 +11,6 @@
     <description>A build tool to verify the build action of your razor view files.</description>
   </metadata>
   <files>
-    <file src="bin\Release\*.dll" target="tools" />
+    <file src="bin\Release\RazorContentChecker.exe" target="tools" />
   </files>
 </package>
